@@ -1,0 +1,35 @@
+name: Update Power 6/55 data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 11 * * 0,3,5'  # 18:35 Vietnam, Sun/Wed/Fri (Power 6/55 draws Wed/Fri/Sun)
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: pip install cloudscraper beautifulsoup4 lxml pydantic pandas pyarrow
+
+      - name: Fetch latest draw
+        run: |
+          python -c "import sys; sys.path.insert(0,'src'); from power655 import Power655; p=Power655(); p.load(); new=p.fetch(); p.dump(); print(f'Fetched {len(new)} new draw(s)')"
+
+      - name: Commit changes
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No new data to commit"
+            exit 0
+          fi
+          git commit -m "Update Power 6/55: $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
