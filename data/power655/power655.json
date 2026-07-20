@@ -1,159 +1,47 @@
 [
   {
-    "date": "2026-06-30",
-    "draw_id": "01365",
+    "date": "2026-07-18",
+    "draw_id": "01373",
     "numbers": [
-      "05",
-      "13",
-      "18",
       "22",
-      "43",
-      "44"
-    ],
-    "bonus": "47",
-    "jackpot1_value": 0,
-    "jackpot2_value": 0,
-    "prizes": []
-  },
-  {
-    "date": "2026-07-02",
-    "draw_id": "01366",
-    "numbers": [
-      "05",
-      "11",
-      "28",
-      "34",
       "41",
-      "42"
-    ],
-    "bonus": "49",
-    "jackpot1_value": 0,
-    "jackpot2_value": 0,
-    "prizes": []
-  },
-  {
-    "date": "2026-07-04",
-    "draw_id": "01367",
-    "numbers": [
-      "13",
-      "15",
-      "18",
-      "23",
-      "31",
-      "43"
-    ],
-    "bonus": "41",
-    "jackpot1_value": 0,
-    "jackpot2_value": 0,
-    "prizes": []
-  },
-  {
-    "date": "2026-07-07",
-    "draw_id": "01368",
-    "numbers": [
-      "04",
-      "06",
-      "25",
-      "32",
-      "33",
-      "44"
-    ],
-    "bonus": "08",
-    "jackpot1_value": 0,
-    "jackpot2_value": 0,
-    "prizes": []
-  },
-  {
-    "date": "2026-07-09",
-    "draw_id": "01369",
-    "numbers": [
-      "02",
-      "09",
-      "10",
-      "14",
-      "17",
-      "49"
-    ],
-    "bonus": "45",
-    "jackpot1_value": 0,
-    "jackpot2_value": 0,
-    "prizes": []
-  },
-  {
-    "date": "2026-07-11",
-    "draw_id": "01370",
-    "numbers": [
-      "09",
-      "17",
-      "20",
-      "33",
-      "41",
-      "42"
-    ],
-    "bonus": "40",
-    "jackpot1_value": 0,
-    "jackpot2_value": 0,
-    "prizes": []
-  },
-  {
-    "date": "2026-07-14",
-    "draw_id": "01371",
-    "numbers": [
-      "10",
-      "24",
-      "30",
-      "35",
-      "45",
-      "51"
-    ],
-    "bonus": "33",
-    "jackpot1_value": 0,
-    "jackpot2_value": 0,
-    "prizes": []
-  },
-  {
-    "date": "2026-07-16",
-    "draw_id": "01372",
-    "numbers": [
-      "19",
-      "20",
-      "33",
       "45",
       "48",
-      "53"
+      "54",
+      "55"
     ],
-    "bonus": "21",
-    "jackpot1_value": 35272733700,
-    "jackpot2_value": 3585859300,
+    "bonus": "16",
+    "jackpot1_value": 37959752100,
+    "jackpot2_value": 3298557600,
     "prizes": [
       {
         "prize": "Jackpot 1",
         "numbers": "O O O O O O",
         "winner_count": 0,
-        "prize_value": 35272733700
+        "prize_value": 37959752100
       },
       {
         "prize": "Jackpot 2",
         "numbers": "O O O O O | O",
-        "winner_count": 1,
-        "prize_value": 3585859300
+        "winner_count": 0,
+        "prize_value": 3298557600
       },
       {
         "prize": "Giải Nhất",
         "numbers": "O O O O O",
-        "winner_count": 7,
+        "winner_count": 9,
         "prize_value": 40000000
       },
       {
         "prize": "Giải Nhì",
         "numbers": "O O O O",
-        "winner_count": 503,
+        "winner_count": 556,
         "prize_value": 500000
       },
       {
         "prize": "Giải Ba",
         "numbers": "O O O",
-        "winner_count": 11855,
+        "winner_count": 11783,
         "prize_value": 50000
       }
     ]
