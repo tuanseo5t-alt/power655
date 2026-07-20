@@ -6,7 +6,7 @@ Kết quả xổ số điện toán POWER 6/55 mới nhất.
 
 | Kỳ QSMT | Ngày | 6 Số Chính | Power | Jackpot 1 | Jackpot 2 | Giải Nhất (SL) | Giải Nhì (SL) | Giải Ba (SL) |
 | :-----: | :--: | :--------: | :---: | :-------: | :-------: | :------------: | :-----------: | :----------: |
-| [#001372](https://raw.githubusercontent.com/tuanseo5t-alt/power655/refs/heads/main/data/power655/power655.json) | 16/07/2026 | 19, 20, 33, 45, 48, 53 | 21 | 35.272.733.700 | 3.585.859.300 | 7 (40.000.000) | 503 (500.000) | 11.855 (50.000) |
+| [#001373](https://raw.githubusercontent.com/tuanseo5t-alt/power655/refs/heads/main/data/power655/power655.json) | 18/07/2026 | 22, 41, 45, 48, 54, 55 | 16 | 37.959.752.100 | 3.298.557.600 | 9 (40.000.000) | 556 (500.000) | 11.783 (50.000) |
 
 ## Data (Dữ liệu)
 
